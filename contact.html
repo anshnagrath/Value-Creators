@@ -47,7 +47,9 @@ FACEBOOK: https://www.facebook.com/themefisher
   <link rel="stylesheet" href="plugins/slick/slick.css">
   <link rel="stylesheet" href="plugins/slick/slick-theme.css">
   <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="plugins/aos/aos.css">
+  <script src="./js/submitquery.js" ></script>
 
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
@@ -192,27 +194,27 @@ FACEBOOK: https://www.facebook.com/themefisher
 				<h2 class="mb-5 text-center">Drop us a mail</h2>
 			</div>
 			<div class="col-12">
-				<form action="">
+				<form action="" id="contactForm" >
 					<div class="row">
 						<!-- Name -->
 						<div class="col-md-6 mb-2">
-							<input class="form-control main" type="text" placeholder="Name" required>
+							<input class="form-control main" id="name" type="text" placeholder="Name" required>
 						</div>
 						<!-- Email -->
 						<div class="col-md-6 mb-2">
-							<input class="form-control main" type="email" placeholder="Your Email Address" required>
+							<input class="form-control main"  id="email" type="email" placeholder="Your Email Address" required>
 						</div>
 						<!-- subject -->
 						<div class="col-md-12 mb-2">
-							<input class="form-control main" type="text" placeholder="Subject" required>
+							<input class="form-control main"  id="subject"  type="text" placeholder="Subject" required>
 						</div>
 						<!-- Message -->
 						<div class="col-md-12 mb-2">
-							<textarea class="form-control main" name="message" rows="10" placeholder="Your Message"></textarea>
+							<textarea class="form-control main"  id="message"  name="message" rows="10" placeholder="Your Message"></textarea>
 						</div>
 						<!-- Submit Button -->
 						<div class="col-12 text-right">
-							<button class="btn btn-main-md">Submit</button>
+							<button class="btn btn-main-md ">Submit</button>
 						</div>
 					</div>
 				</form>
