@@ -866,9 +866,7 @@ button:focus,
     height: 80%;
   }
 }
-.service-box {
-  height: 450px !important;
-}
+
 .service .service-box .service-item {
   text-align: center;
   padding: 5px;
@@ -1803,7 +1801,9 @@ hr {
  .investor-content img{
     width: 95% !important
  }
-
+ .service-box {
+  height: 450px !important;
+}
 }
 
 .user-login .block .image img {
