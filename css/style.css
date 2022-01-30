@@ -1048,7 +1048,7 @@ button:focus,
   width: 200%;
   height: 100%;
   /* min-height: 800px; */
-  border-radius: 50%;
+  /* border-radius: 50%; */
   /* background-image: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%); */
   background-image: url(../images/banner/banner.jpeg);
 }
@@ -1799,6 +1799,13 @@ hr {
     margin-right: 0;
   }
 }
+@media (min-width:801px)  { 
+ .investor-content img{
+    width: 95% !important
+ }
+
+}
+
 .user-login .block .image img {
   border-radius: 8px;
 }
